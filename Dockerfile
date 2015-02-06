@@ -1,7 +1,7 @@
 FROM enschede/linux-core-jdk6
 
 RUN cd /opt && \
-    wget http:://www.xs4all.nl/~mensched/jboss-eap-5.2.0.zip && \
+    wget http://www.xs4all.nl/~mensched/jboss-eap-5.2.0.zip && \
     unzip jboss-eap-5.2.0.zip && \
     rm jboss-eap-5.2.0.zip
 
